@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   function initialScreen() {
     startScreen =
-      "<p class='text-center main-button-container'><a class='btn btn-primary btn-lg btn-block start-button' href='#' role='button'>Start Quiz</a></p>";
+      "<p class='text-center main-button-container'><a class='btn btn-danger btn-lg btn-block start-button' href='#' role='button'>Start Quiz</a></p>";
     $('.mainArea').html(startScreen);
   }
 
@@ -163,7 +163,7 @@ var questionArray = [
   'What is the tallest waterfall in Canada?',
   'What is Canada known for exporting?',
   'What is the largest lake in Canada?',
-  'Which city holds the coldest temperature recorded in Canada?'
+  'Which city holds the coldest recorded temperature in Canada?'
 ];
 var answerArray = [
   ['Ottawa', 'Toronto', 'Montreal', 'Quebec City'],
